@@ -1,0 +1,17 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "my first plugin for kibana.",
+  "main": "index.js",
+  "kibana": {
+    "version": "7.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "yarn plugin-helpers build",
+    "plugin-helpers": "node ../../scripts/plugin_helpers",
+    "kbn": "node ../../scripts/kbn"
+  },
+  "author": "Kevin Alexsander",
+  "license": "ISC"
+}
